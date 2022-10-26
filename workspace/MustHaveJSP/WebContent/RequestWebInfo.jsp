@@ -10,7 +10,7 @@
  	<% request.setCharacterEncoding("UTF-8"); %>
 	<%= request.getMethod() %>
 	<%= request.getRequestURL() %>
-	<%= request.getProtocol() %> --%>
+	<%= request.getProtocol() %>
  	<%= request.getParameter("id") %>
 	<%= request.getParameter("pw") %>
 	
